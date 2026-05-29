@@ -1,0 +1,28 @@
+.hero-logo {
+  max-width: 500px;   /* bigger but balanced */
+  width: 100%;
+  height: auto;
+  margin-left: -18px; /* slight left shift */
+  margin-bottom: 0; /* tighter gap below logo */
+}
+
+.hero h1 {
+  margin-top: 5px;    /* closer to logo */
+  margin-bottom: 8px; /* tighter gap before paragraph */
+}
+
+.hero p {
+  margin-top: 0;
+  margin-bottom: 12px; /* closer to button */
+}
+
+
+.hero-dashboard {
+  max-width: 95%;
+  border: none;        /* removes any border */
+  outline: none;       /* removes outline */
+  box-shadow: none;    /* removes shadow effect */
+  display: block;
+  margin: 0 auto;
+}
+
