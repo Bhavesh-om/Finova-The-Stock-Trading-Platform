@@ -1,28 +1,73 @@
+.hero {
+  padding-top: 80px; 
+  padding-bottom: 60px;
+}
+
 .hero-logo {
-  max-width: 500px;   /* bigger but balanced */
+  max-width: 400px;    
   width: 100%;
   height: auto;
-  margin-left: -18px; /* slight left shift */
-  margin-bottom: 0; /* tighter gap below logo */
+  margin-left: -18px; 
+  margin-bottom: 0;    
 }
 
 .hero h1 {
-  margin-top: 5px;    /* closer to logo */
-  margin-bottom: 8px; /* tighter gap before paragraph */
+  margin-top: 10px;    
+  margin-bottom: 12px; 
 }
 
 .hero p {
   margin-top: 0;
-  margin-bottom: 12px; /* closer to button */
+  margin-bottom: 16px; 
 }
-
 
 .hero-dashboard {
   max-width: 95%;
-  border: none;        /* removes any border */
-  outline: none;       /* removes outline */
-  box-shadow: none;    /* removes shadow effect */
+  border: none;        
+  outline: none;      
+  box-shadow: none; 
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;   
+}
+
+/*Responsive tweaks */
+@media (max-width: 992px) {
+  .hero {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .hero-logo {
+    max-width: 300px;
+    margin: 0 auto 10px auto;
+  }
+
+  .hero-dashboard {
+    max-width: 90%;
+    margin-top: 25px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding-top: 40px;
+  }
+
+  .hero-logo {
+    max-width: 220px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-dashboard {
+    max-width: 100%;
+    margin-top: 30px;
+  }
 }
 
